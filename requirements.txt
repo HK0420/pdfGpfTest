@@ -3,3 +3,4 @@ streamlit
 streamlit_chat
 openai
 chromadb==0.4.14
+sqlite3==3.35.0
