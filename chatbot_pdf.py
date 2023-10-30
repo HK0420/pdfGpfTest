@@ -4,9 +4,6 @@ from langchain.embeddings import OpenAIEmbeddings
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain.chat_models import ChatOpenAI
 from langchain.chains import RetrievalQA
-from langchain.document_loaders import TextLoader
-from langchain.document_loaders import DirectoryLoader
-from langchain.document_loaders import PyPDFLoader
 import streamlit as st
 from streamlit_chat import message
 
