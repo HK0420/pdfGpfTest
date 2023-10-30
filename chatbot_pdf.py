@@ -42,7 +42,7 @@ st.title("PDF 문서 학습 테스트")
 user_id = st.text_input(label="User Name", value="")
 
 
-if user_id == "TEST_KEY":
+if user_id == TEST_KEY:
     if 'generated' not in st.session_state:
         st.session_state['generated'] = []
 
